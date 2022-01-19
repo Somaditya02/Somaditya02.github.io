@@ -4,7 +4,9 @@
 .htitle{
     background-color:black;
     color:white;
+    font-weight:bold;
     font-size:32px;
     flex:1;
     padding: 8px;
+    text-align:center;
 }
