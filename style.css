@@ -1,15 +1,22 @@
 .hbox{
     display:flex;
 }
-.htitle{
+.htitle, .abc{
     background-color:black;
     color:white;
     font-weight:bold;
     font-size:32px;
     flex:1;
     text-align:center;
-    padding-top:8;
+    padding-top:24px;
+    padding-bottom:24px;
 }
 #logoimg{
-    height:48px;
+    height:88px;
+}
+.coursetitle{
+    background-color:purple;
+    color:white;
+    font-size:24px;
+    padding:8px;
 }
