@@ -1,0 +1,10 @@
+.hbox{
+    display:flex;
+}
+.htitle{
+    background-color:black;
+    color:white;
+    font-size:32px;
+    flex:1;
+    padding: 8px;
+}
