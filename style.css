@@ -7,6 +7,9 @@
     font-weight:bold;
     font-size:32px;
     flex:1;
-    padding: 8px;
     text-align:center;
+    padding-top:8;
+}
+#logoimg{
+    height:48px;
 }
