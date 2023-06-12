@@ -15,9 +15,9 @@ body
 }
 header
 {
-    position: absolute;
+    /* position: absolute;
     top:0;
-    left: 0;
+    left: 0; */
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -32,26 +32,26 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
 }
-header ul
+header ul 
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li
+header ul li 
 {
     list-style: none;
     margin-left: 20px;
 }
-header ul li a
+header ul li a 
 {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
 }
-header ul li a:hover,
-header ul li a.active
+.inlinks li a.active,
+.inlinks li a:hover
 {
     background: #fff;
     color: #2b0155;
@@ -94,6 +94,18 @@ section img#moon
 section img#mountains_front
 {
     z-index: 10;
+}
+.profile
+{
+    background-color: black;
+}
+.profile#profile
+{
+    top:0;
+    left:0;
+    width:20%;
+    height:20%;
+    transition: opacity 0.3s ease-in-out;
 }
 #text
 {
